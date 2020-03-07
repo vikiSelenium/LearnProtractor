@@ -1,0 +1,16 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "code test",
+  "main": "index.js",
+  "dependencies": {
+    "protractor": "5.3.2",
+    "jasmine": "3.1.0"
+
+  },
+  "scripts": {
+    "test": "no"
+  },
+  "author": "vignesh",
+  "license": "ISC"
+}
