@@ -24,13 +24,13 @@ describe('Multiple scenarios', function()
             expect(result.getText()).toEqual('3');
        });
         //tc3
-        it('should add 4 and 6', function()
+        it('should add 4 and 8', function()
         {
             firstNum.sendKeys('4');
-            secondNum.sendKeys('6');
+            secondNum.sendKeys('8');
             clickButton.click();
 
-            expect(result.getText()).toEqual('10');
+            expect(result.getText()).toEqual('12');
 
         });
     });
